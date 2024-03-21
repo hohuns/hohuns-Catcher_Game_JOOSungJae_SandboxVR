@@ -16,7 +16,7 @@ npm install
 
 ## API documentation (Swagger UI)
 
-![Swagger](https://github.com/hohuns/Catcher_Game_JOOSungJae_SandboxVR/assets/47592940/c9b9872a-a820-4fb6-8c8a-c4e34ee81d8c)
+![Swagger](https://github.com/hohuns/hohuns-Catcher_Game_JOOSungJae_SandboxVR/assets/47592940/5477f5c9-4b13-4aab-8429-1373d4ae14aa)
 You can check all api's and details in this swagger UI page.
 
 ```bash
