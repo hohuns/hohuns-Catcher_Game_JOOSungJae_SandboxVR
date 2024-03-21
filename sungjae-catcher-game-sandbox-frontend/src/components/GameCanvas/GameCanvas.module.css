@@ -1,0 +1,83 @@
+.gameContainer {
+  position: relative;
+  width: 800px; /* Desktop size */
+  height: 100vh; /* Desktop size */
+  margin: auto;
+  background-image: url("/src/assets/bg1.png");
+  background-size: cover;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 3px 3px 2px black;
+}
+
+.timeLeft {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 17px;
+  color: white;
+  text-shadow: 3px 3px 2px black;
+}
+
+.catcher {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: url("/src/assets/boat.png") no-repeat;
+  background-size: contain;
+}
+
+.dot {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+}
+
+.dot.p1 {
+  background-image: url("/src/assets/p1.png");
+}
+
+.dot.p2 {
+  background-image: url("/src/assets/p2.png");
+}
+
+.dot.p3 {
+  background-image: url("/src/assets/p3.png");
+}
+
+.dot.p4 {
+  background-image: url("/src/assets/p4.png");
+}
+
+.dot.e1 {
+  background-image: url("/src/assets/e1.png");
+}
+
+.dot.e2 {
+  background-image: url("/src/assets/e2.png");
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@media (max-width: 800px) {
+  .gameContainer {
+    width: 500px; /* Mobile size */
+  }
+}

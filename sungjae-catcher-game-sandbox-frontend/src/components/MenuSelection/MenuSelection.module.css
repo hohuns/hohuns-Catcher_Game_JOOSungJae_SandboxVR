@@ -1,0 +1,70 @@
+.gameContainer {
+  position: relative;
+  width: 800px; /* Desktop size */
+  height: 100vh; /* Desktop size */
+  margin: auto;
+  background-image: url("/src/assets/bg1.png");
+  background-size: cover;
+  border: 2px solid white;
+}
+
+.textContainer {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuText {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+
+.menuText:hover {
+  cursor: pointer;
+  font-size: 50px;
+  color: black;
+  text-shadow: 3px 3px 2px white;
+}
+
+.creditText {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+
+.creditText:hover {
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px 2px slateblue;
+}
+
+@media (max-width: 800px) {
+  .gameContainer {
+    width: 500px; /* Mobile size */
+  }
+
+  .textContainer {
+    gap: 10px;
+  }
+
+  .menuText {
+    font-size: 30px;
+  }
+
+  .menuText:hover {
+    font-size: 30px;
+  }
+
+  .creditText {
+    font-size: 15px;
+  }
+
+  .creditText:hover {
+    font-size: 15px;
+  }
+}
